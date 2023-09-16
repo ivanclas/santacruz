@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+h1 {
+    font-size: 29px;
+}
+h3 {
+    font-size: 19px;
+}
+
+/* Estilos para secciones de visión, misión y valores */
+section {
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid #eee;
+    border-radius: 8px;
+    background-color: honeydew;
+    width: 1000px;
+}
+
+h2 {
+    font-size: 20px;
+    color: brown;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+/* Estilo para los valores */
+.valores {
+    background-color: darkcyan;
+}
+
+.valores ul {
+    list-style-type: square;
+}

@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Estilos para secciones de visión, misión y valores */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilo para los valores */
+.valores {
+    background-color: #f0f0f0;
+}
+
+.valores ul {
+    list-style-type: square;
+}
+
+/* Estilos para el formulario del personal en disposición horizontal */
+.formulario-personal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formulario-personal label,
+.formulario-personal input,
+.formulario-personal select {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.formulario-personal label {
+    flex-basis: 20%; /* Ancho fijo para etiquetas */
+}
+
+.formulario-personal input,
+.formulario-personal select {
+    flex-basis: 70%; /* Ancho ajustable para campos de entrada */
+}
+
+/* Estilo para el botón de enviar */
+.formulario-personal button {
+    flex: 1;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para ajustar el tamaño de la fuente en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .valores ul {
+        font-size: 14px;
+    }
+}

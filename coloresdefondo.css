@@ -1,0 +1,17 @@
+/* Estilo para el fondo de color del formulario */
+.formulario-background {
+    background-color: red; /* Cambia este valor al color de fondo que desees */
+}
+
+/* Estilos para el formulario del personal en disposición horizontal */
+.formulario-personal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px; /* Añade espacio alrededor del formulario */
+    border-radius: 5px; /* Añade bordes redondeados al formulario */
+    background-color: white; /* Fondo blanco para el formulario */
+}
+
+/* Resto de estilos para el formulario */
+/* ... (los estilos anteriores para el formulario) */
